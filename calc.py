@@ -1,9 +1,7 @@
 #simple calculator
-x = first number
-first number = input('enter first number')  
-y = second number
-second number = input('enter second number')
+number_1 = int(input('enter first number: '))  
+    
+number_2 = int(input('enter second number: '))
+    
+print(number_1 + number_2)
 
-results = (x + y)
-
-print(results)
